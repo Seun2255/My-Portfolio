@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/index_small.css" type="text/css">
+  <!--<script src="js/index.js"></script>-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.effect').fadeIn('normal');
+    $('#menu').click(function(){
+      if($('#menudiv').css('visibility') == 'hidden'){
+      $('#menudiv').css('visibility', 'visible');
+      $(this).css('border', 'medium solid rgb(48, 109, 75)')
+    } else{
+        $('#menudiv').css('visibility', 'hidden');
+        $(this).css('border-width', '0px')
+      }
+    });// end click
+  });
+  </script>
+</head>
+<body>
+  <!-- Top -->
+  <div id="top">
+    <div id="nickname">Seun</div>
+    <div id="menu"><img src="img\whiteham.png" alt="menu-icon"></div>
+  </div>
+
+
+<!-- Center -->
+  <div id="center">
+    <div id="menudiv">
+      <div><a href="">Home</a></div>
+      <div><a href="resume.html">About me</a></div>
+      <div><a href="resume.html#Projects">Projects</a></div>
+    </div>
+
+    <div id="midalize">
+    <div class="effect" id="surname">Oyewande</div>
+    <div class="effect" id="name">Oluwaseun</div>
+    <div id="stack">Frontend web developer</div>
+    <div id="info">
+    Dedicated and Understanding.<br />
+    Always ready to learn.
+    </div>
+    <div class="button" id="resume"><a id="res" href="resume.html">Resume</a></div>
+    <div class="button" id="portfolio"><a id="port" href="https://github.com/Seun2255">Projects</a></div>
+  <!--  <script>
+    if(num == '31'){
+    document.write("<div>Correct!</div>");
+  } else{
+    document.write("<div>Wrong!</div>");
+  }
+</script> -->
+    </div>
+  </div>
+
+<!-- Bottom -->
+  <div id="bottom">
+    <div id="control">
+    <div class="socials"><a href="https://wa.me/2349067571831"><img src="img\174879 (1).png" alt="whatsapp"></a></div>
+    <div class="socials"><a href="mailto:seunemmanuel2255@gmail.com"><img src="img\732200 (1).png" alt="mail"></a></div>
+    <div class="socials"><a href="https://github.com/Seun2255"><img src="img\4494749.png" alt="github"></a></div>
+    </div>
+  </div>
+</body>
+</html>

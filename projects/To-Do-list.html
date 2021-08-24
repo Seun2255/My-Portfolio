@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To Do List</title>
+  <link href="../css/To-Do-list.css" type="text/css" rel="stylesheet"></link>
+  <script src="../js/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('#button').click(function(){
+      $(this).animate({'left':'+=10px'}, 1000);
+      $(this).animate({'left':'-=10px'}, 1000);
+      var task = $('#task');
+      var newtask = task.val();
+      if(newtask){
+        $('ul').append('<li>' + newtask + '</li>');
+        task.val('');
+      };
+    });// end click
+    function cursor(){
+      $(this).css('cursor', 'grab');
+    };
+    $('ul').on('mouseover', 'li', cursor); // end mouseover
+
+    function done(){
+      $(this).fadeOut(2000);
+    };
+    $('ul').on('click', 'li', done);// end task done
+  });// end ready
+  </script>
+</head>
+<body>
+  <div>
+    <p><input id="task" type="text" name="task"/><input id="button" type="button" value="Add Task" /></p>
+    <h1>To Do List<span class="hint">click on task to delete</span></h1>
+    <hr />
+    <ul>
+    </ul>
+  </div>
+</body>
+</html>

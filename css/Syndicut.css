@@ -1,0 +1,24 @@
+html, body{width: 100%; height: 100%; background-color: white; position: fixed; padding: 0px;
+top: 0; bottom: 0; left: 0; right: 0; margin: 0px;}
+div.title{height: 20%; font-family: arial; font-size: 300%; color: black;
+font-weight: bold;}
+div.numandsidebar{height: 6%;width: 98%; font-weight: 900; font-family: arial;
+margin-bottom: 0px; margin-top: 1%;}
+div.num{position: absolute; width: 100%; text-align: left; left: 20px; font-size: 90%;}
+div.name{position: absolute; width: 100%; text-align: center; font-size: 125%; font-weight: 900;}
+div.sidebar{position: absolute; width: 100%; text-align: right; right: 20px;}
+img{width: 30px; height: 30px;}
+div.main{height: 93%; width: 100%;}
+div.bigtext{position: absolute; width: 100%; text-align: center; font-size: 400%;
+font-weight: 900; color: black; top: 0%; font-family: arial; z-index: 20; transform: translate(0, -50%);}
+div.left{position: relative; width: 50%; height: 100%; float: left; border-bottom-left-radius: 10px;}
+div.right{position: relative; width: 50%; height: 100%; float: left; border-bottom-right-radius: 10px;}
+div.leftdown{position: absolute; bottom: 0px; height: 15%; width: 100%;}
+span.details{font-family: arial; font-weight: 900; font-size: 90%; display: inline-block;
+height: fit-content; width: 100%; position: relative; top: 40%; left: 20px;}
+div.rightdown{height: 15%; width: 40%; position: absolute; bottom: 0px; right: 0px;
+background-color: #306d4b; color: white;font-family: arial; font-weight: bold; font-size: 200%;;
+border-bottom-right-radius: 30px;}
+span.book{display: inline-block; width: fit-content; height: fit-content; position: absolute;
+top: 50%; left: 50%; transform: translate(-50%, -50%)}
+img.grey{width: 100%; height: 100%; border-bottom-right-radius: 30px;}

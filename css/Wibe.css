@@ -1,0 +1,27 @@
+html, body{width: 100%; height: 90%; background-color: white;
+font-family: arial; position: fixed; padding: 0px;
+top: 0; bottom: 0; left: 0; right: 0; margin: 0px;}
+div.head{height: 25%;margin-bottom: 10px;;
+margin-left: 20px;}
+#top{font-size: 300%; font-weight: bold;margin-bottom: 0px;
+margin-top: 10px;}
+#bottom{font-size: 275%; font-weight: bold; margin-top: 20px;}
+div.body{height: 75%; width: 100%; margin: 0px;
+}
+div.upper{height: 15%; padding: 10px;
+margin: 0px; margin-left: 20px;}
+p.left{float: left; font-weight: 700; font-family: impact;
+font-size: 100%; margin-right: 0px; padding-right: 0px;}
+p.right{float: right; font-size: 100%; margin: 0px; margin-right: 75px;}
+form{float: right;}
+div.lower{height: 33%; position: relative; top: 54.5%;
+width: 75%; margin: 0px auto;}
+p.up{font-size: 200%; font-family: sans-serif;}
+p.down{font-size: 75%; color: grey;}
+p{position: }
+span{display: inline-block; transform-origin: 5px 15px; transform: rotate(10deg);
+margin: 0; padding: 0; margin-left: 0px; font-family: arial; font-size: 160%; font-stretch: ultra-condensed;
+font-style: italic;}
+p.vert{position: absolute; top: 80px; left: 1100px; writing-mode: vertical-rl;
+transform-origin: 0 0; transform: rotate(180deg); height: 300px;}
+img{width: 30px; height: 30px;}
