@@ -22,7 +22,7 @@ flex-direction: column;}
 justify-content: center; border-top-left-radius: 10% 50%; border-top-right-radius: 10% 50%;
 border-bottom-left-radius: 10% 50%; border-bottom-right-radius: 10% 50%; margin-bottom: 1%;}
 #resume{width: 80%; background-color: rgb(48, 109, 75); color: rgb(0, 0, 0, 0.5);}
-#portfolio{width: 1000%; border-color: white; border-width: 2px; border-style: solid;}
+#portfolio{width: 100%; border-color: white; border-width: 2px; border-style: solid;}
 #res{color: rgb(0, 0, 0, 0.5);}
 #port{color: white;}
 .button>a{width: 100%; text-align: center;}
