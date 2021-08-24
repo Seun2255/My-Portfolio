@@ -17,7 +17,7 @@ flex-direction: column;}
 #surname{font-size: 600%; color: rgb(48, 109, 75); font-family: arial; font-weight: 900;}
 #name{font-size: 450%; color: rgb(48, 109, 75); font-family: arial; font-weight: 900;}
 #stack{font-size: 250%; color: white;}
-#info{text-align: center; font-size: 150; margin-bottom: 2%;}
+#info{text-align: center; font-size: 200; margin-bottom: 2%;}
 .button{font-size: 350%; height: 9%; display: flex; align-items: center;
 justify-content: center; border-top-left-radius: 10% 50%; border-top-right-radius: 10% 50%;
 border-bottom-left-radius: 10% 50%; border-bottom-right-radius: 10% 50%; margin-bottom: 1%;}
